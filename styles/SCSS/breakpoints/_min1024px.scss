@@ -1,0 +1,65 @@
+@import "../variables/variables";
+
+@media only screen and (min-width: 1024px) {
+  body {
+    @at-root .header {
+      @at-root .header__section {
+        @at-root .header__title {
+          top: 6%;
+        }
+      }
+    }
+
+    @at-root .main {
+      @at-root .grid {
+        @at-root .grid__text-section {
+          padding: 0 20%;
+
+          @at-root .grid__sub-title {
+            font-size: 1.8em;
+          }
+        }
+
+        @at-root .grid__mix-section {
+          padding: 55% 20% 6%;
+
+          @at-root .grid__sub-title2 {
+            font-size: 1.5em;
+          }
+        }
+      }
+
+      @at-root .testi {
+        @at-root .testi__cont {
+          flex-direction: row;
+
+          @at-root .testi__list {
+            flex-basis: 33.3%;
+          }
+        }
+      }
+
+      @at-root .image-grid {
+        grid-template-columns: repeat(4, 1fr);
+
+        @at-root .image-grid__img.mobile {
+          display: none;
+        }
+
+        @at-root .image-grid__img.desktop {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      @at-root .footer {
+        gap: 40px;
+
+        @at-root .footer__nav {
+          justify-content: center;
+          gap: 5vw;
+        }
+      }
+    }
+  }
+}

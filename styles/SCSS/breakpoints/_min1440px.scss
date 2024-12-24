@@ -1,0 +1,90 @@
+@import "../variables/variables";
+
+@media only screen and (min-width: 1440px) {
+  body {
+    @at-root .header {
+      @at-root .navbar {
+        padding: 0 3%;
+
+        @at-root .navbar__logo-cont {
+          width: 100%;
+          aspect-ratio: unset;
+
+          @at-root .navbar__logo {
+            width: 150px;
+          }
+        }
+
+        @at-root .navbar__nav {
+          gap: 50px;
+
+          @at-root .navbar__list {
+            @at-root .navbar__link {
+              font-size: 1em;
+
+              @at-root .navbar__link_button {
+                font-size: 0.8em;
+              }
+            }
+          }
+        }
+      }
+
+      @at-root .header__section {
+        @at-root .header__title {
+          top: 8%;
+        }
+      }
+    }
+
+    @at-root .main {
+      @at-root .grid {
+        @at-root .grid__text-section {
+          padding: 0 19%;
+
+          @at-root .grid__sub-title {
+            font-size: 2.3em;
+          }
+
+          @at-root .grid__text-desc {
+            font-size: 1em;
+          }
+
+          @at-root .grid__link {
+            font-size: 1em;
+          }
+        }
+
+        @at-root .grid__mix-section {
+          padding: 55% 23% 6%;
+          gap: 30px;
+
+          @at-root .grid__sub-title2 {
+            font-size: 1.7em;
+          }
+
+          @at-root .grid__text-desc2 {
+            font-size: 1em;
+          }
+        }
+      }
+
+      @at-root .testi {
+        padding: 170px 12%;
+
+        @at-root .testi__title {
+          font-size: 1.1em;
+          margin-bottom: 80px;
+        }
+
+        @at-root .testi__cont {
+          gap: 20px;
+
+          @at-root .testi__list {
+            gap: 50px;
+          }
+        }
+      }
+    }
+  }
+}

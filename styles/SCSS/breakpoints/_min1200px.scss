@@ -1,0 +1,79 @@
+@import "../variables/variables";
+
+@media only screen and (min-width: 1200px) {
+  body {
+    @at-root .header {
+      @at-root .navbar {
+        @at-root .navbar__logo-cont {
+          @at-root .navbar__logo {
+            width: 125px;
+          }
+        }
+
+        @at-root .navbar__nav {
+          gap: 40px;
+
+          @at-root .navbar__list {
+            @at-root .navbar__link {
+              font-size: 1em;
+
+              @at-root .navbar__link_button {
+                padding: 15px 25px;
+                font-size: 0.7em;
+                border-radius: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @at-root .main {
+      @at-root .grid {
+        @at-root .grid__text-section {
+          @at-root .grid__sub-title {
+            font-size: 2.1em;
+          }
+
+          @at-root .grid__text-desc {
+            font-size: 0.9em;
+          }
+
+          @at-root .grid__link {
+            font-size: 0.9em;
+          }
+        }
+
+        @at-root .grid__mix-section {
+          padding: 55% 25% 6%;
+          gap: 40px;
+
+          @at-root .grid__sub-title2 {
+            font-size: 1.6em;
+          }
+
+          @at-root .grid__text-desc2 {
+            font-size: 0.9em;
+          }
+        }
+      }
+
+      @at-root .testi {
+        padding: 120px 8%;
+
+        @at-root .testi__title {
+          margin-bottom: 100px;
+        }
+
+        @at-root .testi__cont {
+          gap: 32px;
+        }
+      }
+    }
+
+    @at-root .footer {
+      padding: 80px 10%;
+      gap: 50px;
+    }
+  }
+}
