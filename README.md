@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-t04o0QOhcQ)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
